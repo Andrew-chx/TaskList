@@ -6,7 +6,7 @@ namespace TareasApp
 {
     public static class DatabaseHelper
     {
-        private static readonly string connectionString = ConfigurationManager.ConnectionStrings["NombreDeLaConexion"].ConnectionString;
+        private static readonly string connectionString = ConfigurationManager.ConnectionStrings["DESKTOP-E73TVP1\\SQLEXPRESS;Initial Catalog=TareasDB"].ConnectionString;
 
         public static SqlConnection GetConnection()
         {
